@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name1">exc1_TicTacToe</string>
-
+    <string name="app_name2">exc1_TicTacToe</string>
+    <string name="welcomeMessage"> Welcome to Yardens Tic Tac Toe</string>
+    <string name="startGameButton">Lets play</string>
 </resources>
