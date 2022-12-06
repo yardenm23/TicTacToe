@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#E8FFC1">
 
     <TextView
         android:id="@+id/textView"
@@ -12,8 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="216dp"
         android:text="@string/welcomeMessage"
-        android:textColor="#673AB7"
+        android:textColor="#0278AE"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,11 +23,13 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
+        android:background="@drawable/lightblue_button"
         android:text="@string/startGameButton"
-        android:background="@drawable/purple_button"
+        android:textColor="#0278AE"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
