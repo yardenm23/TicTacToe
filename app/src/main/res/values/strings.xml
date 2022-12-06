@@ -2,4 +2,8 @@
     <string name="app_name">exc1_TicTacToe</string>
     <string name="welcomeMessage"> Welcome to Yardens Tic Tac Toe</string>
     <string name="startGameButton">Lets play</string>
-</resources>
+
+    <string name="playAgainButton">Play Again</string>
+    <string name="homeButton">Home</string>
+
+</resources> 

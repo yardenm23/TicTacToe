@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
         android:background="@drawable/lightblue_button"
+        android:onClick="playButtonClick"
         android:text="@string/startGameButton"
         android:textColor="#0278AE"
         android:textSize="20sp"
