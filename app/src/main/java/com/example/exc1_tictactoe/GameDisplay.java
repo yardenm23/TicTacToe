@@ -3,6 +3,7 @@ package com.example.exc1_tictactoe;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Canvas;
 import android.os.Bundle;
 import android.view.View;
 
@@ -22,4 +23,6 @@ public class GameDisplay extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+
 }

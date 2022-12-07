@@ -64,6 +64,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.439"
-        custom:boardColor="#51ADCF" />
+        custom:boardColor="#51ADCF"
+        custom:XColor="#FF9551"
+        custom:OColor="#FF4A4A"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
