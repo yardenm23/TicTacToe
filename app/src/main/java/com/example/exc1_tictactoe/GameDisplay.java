@@ -9,14 +9,19 @@ import android.view.View;
 
 public class GameDisplay extends AppCompatActivity {
 
+    private gameBoard game_board;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_display);
+
+        game_board = findViewById(R.id.gameBoard10);
     }
 
     public void playAgainButtonClick(View view){
-        // complete when board is ready
+        game_board.resetGame();
+        game_board.invalidate();
 
     }
     public void homeButtonClick(View view){
